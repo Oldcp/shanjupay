@@ -18,6 +18,9 @@ import javax.annotation.Resource;
 @Slf4j
 public class PayProducer {
 
+    int i = 1;
+
+
     @Resource
     private RocketMQTemplate rocketMQTemplate;
 
